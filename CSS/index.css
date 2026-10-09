@@ -1,0 +1,166 @@
+body{
+    background-color:#FDF5E6;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #fdc59d;
+    height: 90px;
+    display: flex;
+    padding: 10px 15px;
+}
+header table{
+    width: 100%;
+}
+header a{
+    color:white;
+    font-weight: bold;
+    text-decoration:none;
+    float:right; 
+    text-align: center;
+}
+header p{
+    font-size: 30px;
+    margin: 0px 0px 0px 60px;
+    color:rgb(180, 116, 28);
+    font-style: italic;
+    font-family:sans-serif;
+    
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    float:left;
+}
+
+#account a:hover{
+    color:black;
+}
+#account a{
+    padding: 10px 20px;
+    background-color:rgb(240, 167, 64);
+    border-radius: 5px;
+}
+nav{
+    height: 50px;
+    background-color:#CD853F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow:1px 1px 5px #6c6969;
+}
+nav a {
+color: white;
+text-decoration: none;
+font-size: 14px;
+padding:16px;
+}
+nav a:hover {
+    background-color: rgb(240, 167, 64);
+    color:white;
+    padding: 16px;
+}
+main{
+    font-weight: bold;
+}
+h1{
+    color:#c58b25;
+    margin: 30px 0px 0px;
+}
+#poster{
+    width:100%;
+}
+.deal{
+    width:100%;
+    padding: 20px 45px;
+    border-spacing: 15px;
+}
+.deal td{
+    border-radius: 15px;
+    margin: 60px;
+    width: 200px;
+    background-color:white;
+}
+.deal img{
+    width: 100%;
+}
+.tb1{
+    width: 100%;
+    padding: 20px 25px;
+    border-spacing: 15px;
+}
+.tb1 td{
+    border-radius: 15px;
+    margin: 60px;
+    width: 200px;
+    background-color:white;
+}
+.tb1 img{
+    width: 100%;
+}
+.tb2{
+    width: 100%;
+    padding: 20px 25px;
+    border-spacing: 15px;
+}
+.tb2 td{
+    border-radius: 15px;
+    margin: 60px;
+    width: 200px;
+    background-color:white;
+}
+.tb2 img{
+    width: 100%;
+}
+footer{
+    height: 170px;
+    background-color:rgb(20, 20, 20);
+    align-items: center;
+    color:white;
+    text-align: left;
+    padding: 15px 20px;
+    margin:20px 0px 0px;
+}
+.ft{
+    width:100%;
+}
+.ft img{
+    float:right;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: gray;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+.effect td{
+    transition: 0.3s;
+}
+.effect td:hover{
+    transform: translateY(-10px);
+    box-shadow:0px 0px 5px #6c6969;
+}
+.order{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 5px 5px;
+}
+.effect a:hover{
+    background-color:rgb(10, 69, 10);
+}
+.gia{
+    color: red;
+    font-size: 15px;
+}

@@ -1,0 +1,117 @@
+body{
+    background-color:#FDF5E6;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #fdc59d;
+    height: 90px;
+    display: flex;
+    padding: 10px 15px;
+}
+header table{
+    width: 100%;
+}
+header a{
+    color:white;
+    font-weight: bold;
+    text-decoration:none;
+    float:right; 
+    text-align: center;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    float:left;
+}
+#account a:hover{
+    color:black;
+}
+nav{
+    height: 50px;
+    background-color:#CD853F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    box-shadow:1px 1px 5px #6c6969;
+     margin:0px 0px 20px;
+}
+nav a {
+color: white;
+text-decoration: none;
+font-size: 14px;
+padding:16px;
+}
+nav a:hover {
+    background-color: rgb(240, 167, 64);
+    color:white;
+    padding: 16px;
+}
+.login { 
+    width: 350px; 
+    background-color: white; 
+    padding: 30px 35px; 
+    border-radius: 15px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); 
+    margin:0 auto ;
+} 
+.login h2 { 
+    text-align: center; 
+    margin-bottom: 25px; 
+} 
+.login label { 
+    float:left;
+    display: block; 
+    margin-bottom: 7px; 
+}
+.login input { 
+    width: 100%; 
+    padding: 12px; 
+    margin-bottom: 18px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+} 
+.login button { 
+    width: 100%; 
+    padding: 12px; 
+    background-color: #f5c542; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    font-size: 16px;  
+} 
+.login button:hover { 
+    background-color: #e0ad20; 
+} 
+.login p { 
+    text-align: center; 
+    margin-top: 18px; 
+} 
+.login a { 
+    color: #d99d00; 
+    text-decoration: none; 
+}
+footer{
+    height: 170px;
+    background-color:rgb(20, 20, 20);
+    align-items: center;
+    color:white;
+    text-align: left;
+    padding: 15px 20px;
+    margin:20px 0px 0px;
+}
+.ft{
+    width:100%;
+}
+.ft img{
+    float:right;
+}
+header p{
+    font-size: 30px;
+    margin: 0px 0px 0px 60px;
+    color:rgb(180, 116, 28);
+    font-style: italic;
+    font-family:sans-serif;
+    
+}
